@@ -1,12 +1,60 @@
-# React + Vite
+# 📋 To-Do List App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple and interactive **To-Do List** built with **React JS**, utilizing only the **useState** hook for state management.
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+✅ Add tasks dynamically
+✅ Remove tasks easily
+✅ Fully responsive design
+✅ Built with React and useState only
 
-## Expanding the ESLint configuration
+## 🛠️ Technologies Used
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React.js
+- JavaScript (ES6+)
+- HTML5 & CSS3
+
+## 📦 Installation
+
+1. **Clone the repository:**
+   ```sh
+   git clone https://github.com/yourusername/todolist-app.git
+   ```
+
+2. **Navigate to the project folder:**
+   ```sh
+   cd todolist-app
+   ```
+
+3. **Install dependencies:**
+   ```sh
+   npm install
+   ```
+
+4. **Run the project:**
+   ```sh
+   npm run dev
+   ```
+
+## 📌 Usage
+
+1. Type a task in the input field.
+2. Click the "Add Task" button to save it.
+3. Click the "Delete" button to remove a task.
+
+## 📷 Screenshot
+
+![image](https://github.com/user-attachments/assets/fcea0f4d-05b5-43cb-8d01-9b68c9f79166)
+
+
+## 👨‍💻 Author
+
+- **Your Name**  
+- GitHub: [@aanamarr](https://github.com/aanamarr)
+- LinkedIn: www.linkedin.com/in/ana-maria-rezende-579126196
+
+---
+
+⭐ If you like this project, please give it a star on GitHub! ⭐
+
