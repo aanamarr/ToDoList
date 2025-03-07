@@ -1,11 +1,22 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 
 function ToDoList() {
 
-    const [tasks, setTasks] = useState([]);
+    //useState to store the tasks
+    const [tasks, setTasks] = useState(() => {
+        const storedTasks = JSON.parse(localStorage.getItem("tasks"));
+        return storedTasks || [];//if there are stored tasks, return them, otherwise return an empty array
+    });
+
     const [newTask, setNewTask] = useState ("");
     const [editingIndex, setEditingIndex] = useState(null);//new state to store the index of the task being edited
     const [editingText, setEditingText] = useState("");//new state to store the text of the task being edited
+    
+    //Guardar las tareas en el LocalStorage cada vez que se actualice la pagina
+    useEffect(() => {
+        localStorage.setItem("tasks", JSON.stringify(tasks));
+
+    }, [tasks]);
 
     //Function for a event handler
     function handleInputChange(event){
@@ -64,6 +75,7 @@ function ToDoList() {
         setEditingText("");//reset the editing text
     }
 
+    
 
     return (
         <div className= "to-do-list">
@@ -100,8 +112,9 @@ function ToDoList() {
                             </button>
 
                         </>
+                    ) : (
+                        <span className="text">{task}</span>
                     )}
-                    <span className="text">{task}</span>
                     <button className="edit-button" 
                     onClick={() => editTask(index)}>
                         ✏️ Edit
