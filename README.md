@@ -45,7 +45,12 @@ A simple and interactive **To-Do List** built with **React JS**, utilizing only 
 
 ## 📷 Screenshot
 
-![image](https://github.com/user-attachments/assets/fcea0f4d-05b5-43cb-8d01-9b68c9f79166)
+![image](https://github.com/user-attachments/assets/bac93613-22ee-497c-a159-eb486d384d34)
+![image](https://github.com/user-attachments/assets/8ff51389-108c-4c6c-a5c2-17485a620382)
+![image](https://github.com/user-attachments/assets/c6becc5c-8ffe-4993-8bb9-03a5374be0c9)
+
+
+
 
 
 ## 👨‍💻 Author
